@@ -142,6 +142,37 @@
                 </div>
               </div>
             </fieldset>
+
+            <fieldset class="gardian">
+              <legend>Information about the responsible</legend>
+              <div class="input-wrapper">
+                <label for="guardian">Responsable`s name</label>
+                <input type="text" id="guardian" name="guardian" />
+                <small>Main legal guardian and emergency contact</small>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="phone">Phone</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="(xx) xxxx-xxxx"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="mail">Email</label>
+                <input type="email" name="mail" id="mail" required />
+                <div class="error">
+                  <img
+                    src="assets/icons/alert-circle.svg"
+                    alt="alert circle icon in svg"
+                  />
+                  <span>Insert a valid Email</span>
+                </div>
+              </div>
+            </fieldset>
           </form>
         </div>
       </main>
