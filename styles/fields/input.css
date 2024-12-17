@@ -23,7 +23,7 @@ textarea:focus,
 input[type="date"]:focus-within {
   outline: 0.25rem solid var(--surface-secondary);
   border: 0.125rem solid var(--stroke-highlight);
-  outline-offset: 0.1px;
+  outline-offset: 0.1px; /* safari bord config */
 }
 
 input[type="date"] {
